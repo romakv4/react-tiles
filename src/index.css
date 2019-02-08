@@ -53,6 +53,7 @@ code {
   height: 50px;
   line-height: 50px;
   font-size: 35px;
+  cursor: pointer;
 }
 
 .tile__fast-actions_to-compare:hover {
@@ -67,6 +68,7 @@ code {
   height: 50px;
   line-height: 50px;
   font-size: 35px;
+  cursor: pointer;
 }
 
 .tile__fast-actions_to-favorites:hover {
