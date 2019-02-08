@@ -1,4 +1,5 @@
-{
+[
+    {
     "imagePath" : "./images/мк.jpg",
     "description" : "Микроконтроллер arduino nano с собачими ногами",
     "rating" : 4,
@@ -6,4 +7,15 @@
     "valute" : "₽",
     "inStock" : "в 3 магазинах",
     "shipping" : "завтра"
-}
+    },
+
+    {
+        "imagePath" : "./images/компутатор.jpg",
+        "description" : "Супермощный игровой компутатор",
+        "rating" : 5,
+        "price" : 56000,
+        "valute" : "₽",
+        "inStock" : "в 1 магазине",
+        "shipping" : "на след. неделе"
+    }
+]

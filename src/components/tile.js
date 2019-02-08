@@ -3,14 +3,14 @@ import ProductData from '../data/productData.json';
 
 class Tile extends React.Component {
 
-    getRatingStars = () => {
+    getRatingStars = (productData) => {
 
         let productRating = [];
 
-        for (let i = 0; i < ProductData.rating; i++) {
+        for (let i = 0; i < productData.rating; i++) {
             productRating.push (<i className="fas fa-star"></i>);
         }
-        for (let i = 0; i < 5-ProductData.rating; i++) {
+        for (let i = 0; i < 5-productData.rating; i++) {
             productRating.push (<i className="far fa-star"></i>);
         }
 
@@ -20,21 +20,21 @@ class Tile extends React.Component {
     createTilesArray = () => {
         
         let tilesArray = [];
-        let productRating = this.getRatingStars();
 
-        for (let i = 0; i < 300; i++) {
+        for (let i = 0; i < ProductData.length; i++) {
+            let productRating = this.getRatingStars(ProductData[i]);
             tilesArray.push (
                 <div className="tile">
-                    <img src={ProductData.imagePath} alt="" className="tile__picture" />
+                    <img src={ProductData[i].imagePath} alt="" className="tile__picture" />
                     <div className="tile__info">
                         <div className="tile__info_description top-margin">
-                            {ProductData.description}
+                            {ProductData[i].description}
                         </div>
                         <div className="tile__info_rating top-margin">
                             {productRating}
                         </div>
                         <div className="tile__info_price top-margin">
-                            {ProductData.price + ProductData.valute}
+                            {ProductData[i].price + ProductData[i].valute}
                         </div>
                     </div>
                     <div className="tile__actions top-margin lefter">
@@ -54,10 +54,10 @@ class Tile extends React.Component {
                         </div>
                     </div>
                     <div className="tile__inshop top-margin lefter">
-                        В наличии: <a href="#">{ProductData.inStock}</a>
+                        В наличии: <a href="#">{ProductData[i].inStock}</a>
                     </div>
                     <div className="tile__delivery top-margin lefter">
-                        Доставим: <a href="#">{ProductData.shipping}</a>
+                        Доставим: <a href="#">{ProductData[i].shipping}</a>
                     </div>
                 </div>
             );
