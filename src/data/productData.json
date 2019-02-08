@@ -1,12 +1,13 @@
 [
+
     {
-    "imagePath" : "./images/мк.jpg",
-    "description" : "Микроконтроллер arduino nano с собачими ногами",
-    "rating" : 4,
-    "price" : 347,
-    "valute" : "₽",
-    "inStock" : "в 3 магазинах",
-    "shipping" : "завтра"
+        "imagePath" : "./images/компутатор.jpg",
+        "description" : "Супермощный игровой компутатор",
+        "rating" : 3,
+        "price" : 56000,
+        "valute" : "₽",
+        "inStock" : "в 1 магазине",
+        "shipping" : "на след. неделе"
     },
 
     {
@@ -21,51 +22,82 @@
 
     {
         "imagePath" : "./images/компутатор.jpg",
-        "description" : "Суперская рабочая лошадка",
-        "rating" : 3,
-        "price" : 26000,
-        "valute" : "₽",
-        "inStock" : "в 5 магазинах",
-        "shipping" : "сегодня"
-    },
-
-    {
-        "imagePath" : "./images/мк.jpg",
-        "description" : "Микроконтроллер arduino nano с кошачими ногами",
-        "rating" : 1,
-        "price" : 258,
-        "valute" : "₽",
-        "inStock" : "в 2 магазинах",
-        "shipping" : "послезавтра"
-    },
-
-    {
-        "imagePath" : "./images/мк.jpg",
-        "description" : "Микроконтроллер arduino nano без ног",
+        "description" : "Супермощный игровой компутатор",
         "rating" : 5,
-        "price" : 120,
+        "price" : 56000,
         "valute" : "₽",
-        "inStock" : "в 5 магазинах",
+        "inStock" : "в 1 магазине",
         "shipping" : "на след. неделе"
     },
 
     {
         "imagePath" : "./images/компутатор.jpg",
-        "description" : "Офисный ноутбук тянет дота 2",
-        "rating" : 3,
-        "price" : 25999,
+        "description" : "Супермощный игровой компутатор",
+        "rating" : 5,
+        "price" : 56000,
         "valute" : "₽",
-        "inStock" : "в 7 магазинах",
-        "shipping" : "никогда"
+        "inStock" : "в 1 магазине",
+        "shipping" : "на след. неделе"
     },
 
     {
         "imagePath" : "./images/компутатор.jpg",
-        "description" : "Не мощный игровой компутатор",
-        "rating" : 3,
-        "price" : 59000,
+        "description" : "Супермощный игровой компутатор",
+        "rating" : 5,
+        "price" : 56000,
         "valute" : "₽",
-        "inStock" : "нет в наличии",
-        "shipping" : "через месяц"
+        "inStock" : "в 1 магазине",
+        "shipping" : "на след. неделе"
+    },
+
+    {
+        "imagePath" : "./images/компутатор.jpg",
+        "description" : "Супермощный игровой компутатор",
+        "rating" : 5,
+        "price" : 56000,
+        "valute" : "₽",
+        "inStock" : "в 1 магазине",
+        "shipping" : "на след. неделе"
+    },
+
+    {
+        "imagePath" : "./images/компутатор.jpg",
+        "description" : "Супермощный игровой компутатор",
+        "rating" : 5,
+        "price" : 56000,
+        "valute" : "₽",
+        "inStock" : "в 1 магазине",
+        "shipping" : "на след. неделе"
+    },
+
+    {
+        "imagePath" : "./images/компутатор.jpg",
+        "description" : "Супермощный игровой компутатор",
+        "rating" : 5,
+        "price" : 56000,
+        "valute" : "₽",
+        "inStock" : "в 1 магазине",
+        "shipping" : "на след. неделе"
+    },
+
+    {
+        "imagePath" : "./images/компутатор.jpg",
+        "description" : "Супермощный игровой компутатор",
+        "rating" : 5,
+        "price" : 56000,
+        "valute" : "₽",
+        "inStock" : "в 1 магазине",
+        "shipping" : "на след. неделе"
+    },
+
+    {
+        "imagePath" : "./images/компутатор.jpg",
+        "description" : "Супермощный игровой компутатор",
+        "rating" : 5,
+        "price" : 56000,
+        "valute" : "₽",
+        "inStock" : "в 1 магазине",
+        "shipping" : "на след. неделе"
     }
+
 ]

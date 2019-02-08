@@ -25,11 +25,10 @@ code {
 
 .tile {
   text-align: center;
-  display: flex;
   position: relative;
   font-family: sans-serif;
   padding: 10px;
-  width: 24%;
+  width: 24.4%;
   margin-left: 10px;
   margin-bottom: 15px;
   display: inline-block;
@@ -90,6 +89,10 @@ code {
   height: 80px;
 }
 
+.tile__info_specs {
+  display: none;
+}
+
 .tile__info_price {
   font-size: 30px;
   font-weight: 600;
@@ -97,6 +100,10 @@ code {
 
 .tile__info_rating {
   color: #f07511;
+}
+
+.tile__info_vendor-code {
+  display: none;
 }
 
 button {
@@ -156,7 +163,7 @@ button {
 
 @media(max-width:768px) {
   .tile {
-    min-width: 100%;
+    min-width: 97%;
   }
 }
 

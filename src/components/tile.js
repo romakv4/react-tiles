@@ -39,10 +39,10 @@ class Tile extends React.Component {
                     </div>
                     <div className="tile__actions top-margin lefter">
                         <button type="button" className="tile__actions_one-click-buy-button">
-                        Купить в один клик
+                            Купить в один клик
                         </button>
                         <button type="button" className="tile__actions_buy-button">
-                        Купить
+                            Купить
                         </button>
                     </div>
                     <div className="tile__fast-actions">
@@ -53,11 +53,13 @@ class Tile extends React.Component {
                             <i className="far fa-heart"></i>
                         </div>
                     </div>
-                    <div className="tile__inshop top-margin lefter">
-                        В наличии: <a href="#">{ProductData[i].inStock}</a>
-                    </div>
-                    <div className="tile__delivery top-margin lefter">
-                        Доставим: <a href="#">{ProductData[i].shipping}</a>
+                    <div className="tile__logistic-info">
+                        <div className="tile__logistic-info_inshop top-margin lefter">
+                            В наличии: <a href="#">{ProductData[i].inStock}</a>
+                        </div>
+                        <div className="tile__logistic-info_delivery top-margin lefter">
+                            Доставим: <a href="#">{ProductData[i].shipping}</a>
+                        </div>
                     </div>
                 </div>
             );
