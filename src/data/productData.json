@@ -1,8 +1,8 @@
 {
-    "imagePath" : "./images/компутатор.jpg",
+    "imagePath" : "./images/мк.jpg",
     "description" : "Микроконтроллер arduino nano с собачими ногами",
     "rating" : 4,
-    "price" : 1488,
+    "price" : 347,
     "valute" : "₽",
     "inStock" : "в 3 магазинах",
     "shipping" : "завтра"
