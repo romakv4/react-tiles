@@ -2,12 +2,14 @@ import React from 'react';
 import Tile from './components/tile';
 
 class App extends React.Component {
-  render () {
+
+  render () { 
     return (
       <div className="tiles-list">
         <Tile />
       </div>
     );
+      
   }
 }
 
